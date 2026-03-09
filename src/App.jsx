@@ -5,7 +5,7 @@ import Photography from "./pages/Photography";
 import DigitalDesign from "./pages/DigitalDesign";
 import WebsiteBuilding from "./pages/WebsiteBuilding";
 import TravelPlans from "./pages/TravelPlans";
-import Contact from "./pages/contact.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
