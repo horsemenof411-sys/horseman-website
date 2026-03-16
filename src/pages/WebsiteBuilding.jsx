@@ -1,6 +1,6 @@
 export default function WebsiteBuilding() {
   return (
-    <div className="pt-24 bg-black text-white min-h-screen px-10">
+    <div className="pt-24 bg-gray-950 text-white min-h-screen px-10">
       
       <h1 className="text-5xl font-bold text-center mb-16">
         Website Building
@@ -8,7 +8,7 @@ export default function WebsiteBuilding() {
 
       <div className="grid md:grid-cols-3 gap-6">
         {/* Client Website 1 */}
-        <div className="bg-zinc-900 p-6 rounded-lg hover:scale-105 transition">
+        <div className="bg-gray-900 p-6 rounded-lg hover:scale-105 transition duration-300">
           <h3 className="text-xl font-semibold mb-2">Startup Website</h3>
           <p className="text-gray-400 mb-2">
             Landing page & portfolio for a startup company.
@@ -24,7 +24,7 @@ export default function WebsiteBuilding() {
         </div>
 
         {/* Client Website 2 */}
-        <div className="bg-zinc-900 p-6 rounded-lg hover:scale-105 transition">
+        <div className="bg-gray-900 p-6 rounded-lg hover:scale-105 transition duration-300">
           <h3 className="text-xl font-semibold mb-2">Student Portfolio</h3>
           <p className="text-gray-400 mb-2">
             Portfolio website for a student showcasing their projects.
@@ -40,7 +40,7 @@ export default function WebsiteBuilding() {
         </div>
 
         {/* Your Website (In Progress) */}
-        <div className="bg-zinc-900 p-6 rounded-lg hover:scale-105 transition">
+        <div className="bg-gray-900 p-6 rounded-lg hover:scale-105 transition duration-300">
           <h3 className="text-xl font-semibold mb-2">Horseman Website</h3>
           <p className="text-gray-400 mb-2">
             My own portfolio website, currently under development.

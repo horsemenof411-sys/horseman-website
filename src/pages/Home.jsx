@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="pt-20 bg-green-900 text-green-100 min-h-screen">
+    <div className="pt-20 bg-gray-950 text-white min-h-screen">
 
       {/* HERO SECTION */}
       <section className="relative h-screen flex items-center justify-center text-center overflow-hidden">
@@ -16,14 +16,14 @@ export default function Home() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-green-900/50"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Hero Text */}
         <div className="relative z-10 px-6">
-          <h1 className="text-6xl font-bold mb-6 text-green-100">
+          <h1 className="text-6xl font-bold mb-6">
             Horseman Photography
           </h1>
-          <p className="text-green-200 text-lg max-w-xl mx-auto">
+          <p className="text-gray-300 text-lg max-w-xl mx-auto">
             Capturing travel, motorcycles and unforgettable journeys
           </p>
         </div>
@@ -31,34 +31,34 @@ export default function Home() {
 
       {/* SERVICES */}
       <section className="py-20 text-center">
-        <h2 className="text-4xl font-bold mb-12 text-green-100">Our Services</h2>
+        <h2 className="text-4xl font-bold mb-12">Our Services</h2>
 
         <div className="grid md:grid-cols-4 gap-10 px-10">
 
-          <div className="bg-green-800 p-6 rounded-xl hover:scale-105 transition">
-            <h3 className="text-xl font-semibold mb-3 text-green-100">Photography</h3>
-            <p className="text-green-200">
+          <div className="bg-gray-900 p-6 rounded-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold mb-3">Photography</h3>
+            <p className="text-gray-400">
               Outdoor, travel and cinematic photography experiences.
             </p>
           </div>
 
-          <div className="bg-green-800 p-6 rounded-xl hover:scale-105 transition">
-            <h3 className="text-xl font-semibold mb-3 text-green-100">Digital Design</h3>
-            <p className="text-green-200">
+          <div className="bg-gray-900 p-6 rounded-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold mb-3">Digital Design</h3>
+            <p className="text-gray-400">
               Logos, posters, wallpapers and creative design work.
             </p>
           </div>
 
-          <div className="bg-green-800 p-6 rounded-xl hover:scale-105 transition">
-            <h3 className="text-xl font-semibold mb-3 text-green-100">Website Building</h3>
-            <p className="text-green-200">
+          <div className="bg-gray-900 p-6 rounded-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold mb-3">Website Building</h3>
+            <p className="text-gray-400">
               Portfolio and business websites for individuals and brands.
             </p>
           </div>
 
-          <div className="bg-green-800 p-6 rounded-xl hover:scale-105 transition">
-            <h3 className="text-xl font-semibold mb-3 text-green-100">Travel Plans</h3>
-            <p className="text-green-200">
+          <div className="bg-gray-900 p-6 rounded-xl hover:scale-105 transition">
+            <h3 className="text-xl font-semibold mb-3">Travel Plans</h3>
+            <p className="text-gray-400">
               Curated motorcycle travel experiences and road trips.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* GALLERY */}
       <section className="py-20 text-center">
-        <h2 className="text-4xl font-bold mb-12 text-green-100">Featured Photography</h2>
+        <h2 className="text-4xl font-bold mb-12">Featured Photography</h2>
 
         <div className="grid md:grid-cols-3 gap-6 px-10">
 
