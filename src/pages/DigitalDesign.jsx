@@ -20,6 +20,11 @@ export default function DigitalDesign() {
           src="/images/design3.jpg"
           className="rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-300"
         />
+
+        <img
+          src="/images/design4.jpg"
+          className="rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl transition-transform duration-300"
+        />
       </div>
     </div>
   );
