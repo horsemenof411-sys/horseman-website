@@ -16,6 +16,8 @@ export default function Photography() {
         <img src="/images/img8.jpg" className="rounded-lg hover:scale-105 transition duration-300" />
         <img src="/images/img9.jpg" className="rounded-lg hover:scale-105 transition duration-300" />
         <img src="/images/img10.jpg" className="rounded-lg hover:scale-105 transition duration-300" />
+        <img src="/images/img11.jpg" className="rounded-lg hover:scale-105 transition duration-300" />
+        <img src="/images/img12.jpg" className="rounded-lg hover:scale-105 transition duration-300" />
       </div>
     </div>
   );
