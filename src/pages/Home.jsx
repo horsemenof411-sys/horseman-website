@@ -122,7 +122,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6 px-10">
 
           {[
-            "/images/img1.jpg",
+            "/images/img12.jpg",
             "/images/img2.jpg",
             "/images/img3.jpg",
             "/images/img4.jpg",
