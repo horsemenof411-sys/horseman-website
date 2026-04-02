@@ -30,7 +30,7 @@ export default function WebsiteBuilding() {
             Portfolio website for a student showcasing their projects.
           </p>
           <a 
-            href="https://reshika-portfolio.vercel.app/" 
+            href="https://reshika.horsemanof411.co.in/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-blue-400 hover:underline"
